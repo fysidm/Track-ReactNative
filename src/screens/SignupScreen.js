@@ -7,7 +7,6 @@ import NavLink from '../components/NavLink';
 const SignupScreen = () => {
   const { state, signup } = useContext(AuthContext);
 
-
   return (
     <View style={styles.container}>
       <AuthForm
