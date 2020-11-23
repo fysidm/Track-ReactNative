@@ -18,6 +18,7 @@ const AuthForm = ({ headerText, errorMessage, onSubmit, submitButtonText }) => {
         onChangeText={setEmail}
         autoCapitalize="none"
         autoCorrect={false}
+        textContentType="oneTimeCode"
       />
       <Spacer />
       <Input
@@ -27,6 +28,7 @@ const AuthForm = ({ headerText, errorMessage, onSubmit, submitButtonText }) => {
         onChangeText={setPassword}
         autoCapitalize="none"
         autoCorrect={false}
+        textContentType="oneTimeCode"
       />
       {
         errorMessage
